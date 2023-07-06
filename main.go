@@ -17,6 +17,6 @@ func main() {
 	}
 
 	// Sign and get the complete encoded token as a string
-	tokenString, err := token.SignedString([]byte("My Secret"))
+	tokenString, err := token.SignedString([]byte("My Dipankar"))
 	fmt.Println(tokenString, err)
 }
